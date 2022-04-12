@@ -10,7 +10,7 @@ public class HesapMakinesi {
         System.out.print("Enter 2nd Number For Division:  ");
         n4 = input2.nextDouble();
 
-        if (n3 != 0) {
+        if (n3 != 0 || n4 != 0) {
             System.out.println("Division Result: " + (n3 / n4));
         } else {
             System.out.println("Error! Division by zero can not calculated!");
@@ -69,10 +69,10 @@ public class HesapMakinesi {
                 System.out.println("Multiplication Result:  "+ (n5 * n6));
                 break;
             case 4:
-                System.out.println(division());
+                System.out.println("Division Result:  "+ division());
                 break;
             case 5:
-                System.out.println(squaring());
+                System.out.println("Squaring Result:  "+ squaring());
                 break;
             case 6:
                 System.out.println("Cubing Result:  " + cubing());
